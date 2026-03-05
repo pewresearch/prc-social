@@ -1,0 +1,17 @@
+{
+	"name": "@prc/social",
+	"version": "1.0.0",
+	"description": "This module provides social media integration for the PRC Platform allowing scheduling and publishing posts to various social media platforms via Hootsuite API.",
+	"scripts": {
+		"build": "wp-scripts build --source-path=src/editor-ui/ --output-path=build/editor-ui/ && wp-scripts build --source-path=src/admin-surfaces/ --output-path=build/admin-surfaces/"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.14.1"
+	},
+	"dependencies": {
+		"@wordpress/icons": "^11.3.0",
+		"@prc/components": "*",
+		"@emotion/styled": "*",
+		"classnames": "*"
+	}
+}

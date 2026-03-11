@@ -13,5 +13,6 @@
 		"@prc/components": "*",
 		"@emotion/styled": "*",
 		"classnames": "*"
-	}
+	},
+	"license": "GPL-2.0-or-later"
 }
